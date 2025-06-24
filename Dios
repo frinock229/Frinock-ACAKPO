@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  </head>
+  <body style="background-color: beige;">
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Menu</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Service</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Annonce
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Publicité</a></li>
+            <li><a class="dropdown-item" href="#">Vendre</a></li>
+            <li><a class="dropdown-item" href="#">Acheter</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-3">
+  <h1 class="text-center text-primary">Bienvenue sur DiosServices</h1>
+  <p class="text-center">Votre plateforme de services en ligne</p>
+
+
+<div class="row justify-content-end">
+<div class="col-md-3">
+<select class="form-select form-select-lg mb-3" aria-label="Large select example">
+  <option selected>Open this select menu</option>
+  <option value="1">Découverte</option>
+  <option value="2">Nos Services</option>
+  <option value="3">Commander</option>
+</select>
+</div>
+</div>
+
+<div class="row">
+
+<div class="col-md-4">
+  <div class="card">
+  <div class="card-body">
+Nombre de Vente Journalier: 10 </div>
+</div>
+</div>
+
+<div class="col-md-4">
+  <div class="card">
+  <div class="card-body">
+Revenu Journalier: 400.000 </div>
+</div>
+</div>
+
+<div class="col-md-4">
+  <div class="card">
+  <div class="card-body">
+Revenu Hebdomadaire: 2.000.000  </div>
+</div>
+</div>
+
+<div class="card mt-3">
+    <div class="card-header">
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Recipient’s username" aria-label="Recipient’s username" aria-describedby="button-addon2">
+  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Recherche</button>
+
+</div>
+</div> 
+
+
+<table class="table table-success table-striped mt-4">
+<thead>
+<tr>
+<th scope="col">Matricule</th>
+<th scope="col">Nom</th>
+<th scope="col">Service</th>
+<th scope="col">Date</th>
+<th scope="col">Statut</th>
+<th scope="col">Revenu</th>
+</tr>
+<tr>
+
+<td scope="col">AR0000234</td>
+<td scope="col">Kolawolo Sara</td>
+<td scope="col">Depot</td>
+<td scope="col">12/12/2024</td>
+<td scope="col">Commercial</td>
+<td scope="col">995.550CFA</td>
+  
+</tr>
+</thead>  
+</table>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
